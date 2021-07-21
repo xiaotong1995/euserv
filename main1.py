@@ -10,8 +10,8 @@ USERNAME = os.environ["USERNAME"]
 PASSWORD = os.environ["PASSWORD"]
 
 # Telegram Bot Push https://core.telegram.org/bots/api#authorizing-your-bot
-TG_BOT_TOKEN = ''  # 通过 @BotFather 申请获得，示例：1077xxx4424:AAFjv0FcqxxxxxxgEMGfi22B4yh15R5uw
-TG_USER_ID = ''  # 用户、群组或频道 ID，示例：129xxx206
+TG_BOT_TOKEN = os.environ["TG_BOT"]  # 通过 @BotFather 申请获得，示例：1077xxx4424:AAFjv0FcqxxxxxxgEMGfi22B4yh15R5uw
+TG_USER_ID = os.environ["TG_USER"]  # 用户、群组或频道 ID，示例：129xxx206
 TG_API_HOST = ''  # 自建 API 反代地址，供网络环境无法访问时使用，网络正常则保持默认
 
 # Server酱 http://sc.ftqq.com/?c=code
