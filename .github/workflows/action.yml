@@ -29,4 +29,4 @@ jobs:
         env:
           USERNAME: ${{ secrets.USERNAME }}
           PASSWORD: ${{ secrets.PASSWORD }}
-        run: python main1.py
+        run: python xq.py
