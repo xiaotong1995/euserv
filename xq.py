@@ -342,5 +342,10 @@ def main_handler(event, context):
         time.sleep(15)
         check(sessid, s)
         time.sleep(5)
-        
-            print('*' * 30)
+
+    TG_BOT_TOKEN and TG_USER_ID and TG_API_HOST and telegram()
+    SCKEY and server_chan()
+    SRE24_TOKEN and sre24()
+
+    print('*' * 30)
+# {"mode":"full","isActive":false}
